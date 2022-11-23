@@ -1,0 +1,47 @@
+# This file contains the Project Configuration Parameters
+
+# Random State
+random_state: 101
+
+# Verbose for Log Prints
+verbose: True
+
+# Dataset Path
+dataset:
+  # Training Dataset Path
+  training_data_path: './dataset/training_data.csv'
+  # Test Dataset Path
+  test_data_path: './dataset/test_data.csv'
+  # Validation Data Size for train_test_split
+  validation_size: 0.33
+
+  dataset_feature : 132
+
+# Model Parameters
+model:
+  # Decision Tree
+  decision_tree:
+    criterion: 'entropy'
+    max_depth: 10
+    max_features : 'sqrt'
+
+  # Random Forest Classifier
+  random_forest:
+    n_estimators: 10
+    bootstrap : True
+    max_depth : 10
+
+  # Gradient Boosting Classifier
+  gradient_boost:
+    n_estimators: 150
+    criterion: 'friedman_mse'
+    verbose: 1
+    ccp_alpha : 0.005
+    max_depth : 30
+    learning_rate : 1.0
+    n_iter_no_change : 10
+    tol: 0.1
+
+
+# Model Save Path
+model_save_path: './saved_model/'
