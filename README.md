@@ -2,8 +2,8 @@
 This is a disease prediction system which predicts various diseases based on symptoms.
 
 ### Features 
-1. •	The ML model for prediction are decision tree, Random forest and Gradient Boosting.
-2. •	The accuracy from the model are 81%, 93%, 94% on training test for the 3 models respectively.
+1. The ML model for prediction are decision tree, Random forest and Gradient Boosting.
+2. The accuracy from the model are 81%, 93%, 94% on training test for the 3 models respectively.
 
 ### Libraries Used
 1. [sklearn](https://scikit-learn.org/stable/)
