@@ -7,7 +7,7 @@ This is a disease prediction system that predicts various diseases based on symp
 
 ### Features 
 1. The ML models for prediction are decision tree, Random forest, and Gradient Boosting.
-2. The accuracy from the model is 73%, 92%, and 94% on the training set for the 3 models (Decision tree, Random forest, Gradient Boost) respectively.
+2. The accuracy from the model is 81%, 93%, and 94% on the training set for the 3 models (Decision tree, Random forest, Gradient Boost) respectively.
 
 ### Libraries Used
 1. [sklearn](https://scikit-learn.org/stable/)
